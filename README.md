@@ -40,3 +40,7 @@ Interactive Dashboard: Filters for department, course, branch, batch year, fees 
 Visual Analytics: Bar charts, line charts, donut charts, and detailed tables for insights
 
 Data Validation: Ensured full data consistency between Python, MySQL, and Power BI
+
+6. Screenshot<img width="1381" height="743" alt="Screenshot 2026-01-11 131222" src="https://github.com/user-attachments/assets/884d6fde-6731-4669-a879-8b1aa6f0f558" />
+
+   
