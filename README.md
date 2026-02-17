@@ -1,46 +1,42 @@
-# Row-Level-Secured-Student-Analytics-Dashboard
-1.Project Title
+Row-Level Secured Student Analytics Dashboard (Power BI)
+1.Overview
 
-Row-Level Secured Student Analytics Dashboard
+This project is a secure analytics dashboard built in Power BI with Row-Level Security (RLS) to control access to student data based on user roles (department and branch). It also includes data masking to protect sensitive information.
 
-2.Project Description
+2.Tools Used
 
-Developed a secure online student analytics dashboard for PUMO Technovation India to analyze student enrollment, courses, branch performance, fees status, and placement outcomes. The project integrates MySQL, Python, and Power BI with Row-Level Security (RLS) to ensure role-based data access while protecting sensitive student information through data masking.
+Power BI (DAX, Row-Level Security)
 
-3.Tech Stack
+MySQL
 
-Database: MySQL
+Python (data generation + bulk insert)
 
-Programming Language: Python
+Excel (data cleaning)
 
-Python Libraries: pandas, mysql-connector-python, Faker
+3.Key Features
 
-Business Intelligence Tool: Microsoft Power BI
+Row-Level Security (RLS): Restricts dashboard access by department and branch
 
-Security Concepts: Row-Level Security (RLS), Data Masking
+Data Masking: Protects sensitive fields like email ID and mobile number
 
-Operating System: Windows
+Analytics Coverage: Academic performance, fees, placement metrics
 
-4.Data Sources
+Dataset Scale: 6,000+ student records generated and loaded into MySQL
 
-Synthetic Student Dataset (6,000+ records) generated using Python
+4.Files Included
 
-Data includes department, course, branch, batch year, fees status, placement status, and salary
+DATA PRIVACY.PUMO.pbit — Power BI template file
 
-Sensitive fields such as email and mobile numbers stored and displayed in masked format
+Screenshot 2026-01-11 131222.png — Dashboard preview
 
-5.Key Features
+5.How to Use
 
-Row-Level Security (RLS): Restricted dashboard access based on department and branch roles
+Download the .pbit file
 
-Secure Data Handling: Masked email IDs and mobile numbers to protect personal data
+Open in Power BI Desktop
 
-Interactive Dashboard: Filters for department, course, branch, batch year, fees status, and placement status
+Connect to dataset / sample dataset
 
-Visual Analytics: Bar charts, line charts, donut charts, and detailed tables for insights
-
-Data Validation: Ensured full data consistency between Python, MySQL, and Power BI
-
-6. Screenshot<img width="1381" height="743" alt="Screenshot 2026-01-11 131222" src="https://github.com/user-attachments/assets/884d6fde-6731-4669-a879-8b1aa6f0f558" />
+Test RLS roles inside Power BI
 
    
